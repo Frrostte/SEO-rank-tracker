@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import {authOptions} from "@/app/api/auth/[...nextauth]/route";
 import {Domain} from "@/models/Domain";
 import axios from "axios";

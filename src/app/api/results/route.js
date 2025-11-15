@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import axios from "axios";
 import mongoose from "mongoose";
 import {Result} from "../../../models/Result";

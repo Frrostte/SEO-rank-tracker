@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import {authOptions} from "@/app/api/auth/[...nextauth]/route";
 import {doGoogleSearch} from "@/libs/rankingFunctions";
 import {Keyword} from "@/models/Keyword";
